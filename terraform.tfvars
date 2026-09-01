@@ -1,7 +1,7 @@
 rgname = {
   rg1 = {
     name       = "harman1"
-    location   = "central india"
+    location   = "centralindia"
     managed_by = "Sourbh_kamboj"
   }
 }
@@ -11,14 +11,14 @@ storage = {
     resource_group_name      = "harman1"
     account_tier             = "Standard"
     account_replication_type = "LRS"
-    location                 = "central india"
+    location                 = "centralindia"
   }
   storage2 = {
     name                     = "harmanstorage"
     resource_group_name      = "harman1"
     account_tier             = "Standard"
     account_replication_type = "LRS"
-    location                 = "central india"
+    location                 = "centralindia"
   }
 }
 vnet = {
@@ -26,6 +26,6 @@ vnet = {
     name                = "first_virual_network"
     resource_group_name = "harman1"
     address_space       = ["192.143.0.0/24"]
-    location            = "central india"
+    location            = "centralindia"
   }
 }
